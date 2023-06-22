@@ -23,7 +23,7 @@ export default function Main() {
           LEARN MORE
         </button>
       </div>
-      <div className="w-1/2 h-full flex justify-center pr-4 items-center">
+      <div className="w-1/2  h-full flex justify-center pr-4 items-center">
         <video src={require("./8.mp4")} autoPlay loop></video>
 
       </div>
