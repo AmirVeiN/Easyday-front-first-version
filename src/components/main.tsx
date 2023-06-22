@@ -20,11 +20,11 @@ export default function Main() {
           </p>
         </div>
         <button className="text-4xl max-lg:text-xl max-xl:text-2xl max-2xl:text-3xl font-bold bg-gradient-to-r from-blueAi to-purpleAi p-5 rounded-3xl">
-          LEARN MORE
+          LEARN MOREe
         </button>
       </div>
       <div className="w-1/2  h-full flex justify-center pr-4 items-center">
-        <video src={require("./8.mp4")} autoPlay loop></video>
+        <video src={require("./8.mp4")} controls={false} autoPlay={true} loop={true}></video>
 
       </div>
     </div>
