@@ -4,26 +4,24 @@ import ParticlesBackground from './particle/particleBackground';
 export default function Main() {
 
   return (
-    <div className="flex flex-row grow justify-around items-center  bg-black">
+    <div className="flex desktop:flex-row laptop:flex-row tablet:flex-col phone:flex-col p-2 justify-between bg-black">
       {/* <ParticlesBackground /> */}
-      <div className="w-1/2 h-full flex flex-col justify-center  space-y-12 items-center">
-        <div className="flex w-full flex-col justify-center items-center space-y-4">
-          <div className="flex flex-row space-x-1">
-            <p className="text-4xl max-lg:text-xl max-xl:text-2xl max-2xl:text-3xl font-bold text-white">
-              HAVE YOU SEEN THE TRUE POWER OF
-            </p>
-            <p className="text-4xl max-lg:text-xl max-xl:text-2xl max-2xl:text-3xl font-bold text-blueAi">AI</p>
-            <p className="text-4xl max-lg:text-xl max-xl:text-2xl max-2xl:text-3xl font-bold text-white">?</p>
-          </div>
-          <p className="text-blueAi 2xl:text-xl font-bold">
-            Solving 6 basic needs with artificial antelligence
+      <div className=" desktop:h-96 phone:w-full laptop:h-96 tablet:h-72 phone:h-72 desktop:p-5 laptop:p-5 phone:p-5 tablet:p-5 items-center desktop:w-1/2 laptop:w-1/2 tablet:w-full   justify-center flex flex-col ">
+        <div className="flex items-center w-full tablet:w-80 phone:w-full  flex-col space-y-2 ">
+          <p className="desktop:text-5xl phone:w-full laptop:text-3xl tablet:text-4xl phone:text-3xl font-bold w-full  text-white inline">
+            Have You Seen The True Power Of <p className="text-blueAi desktop:w-96 laptop:w-96 tablet:w-96 phone:w-96 inline">AI</p> ?
+          </p>
+          <p className="text-blueAi desktop:w-full desktop:text-xl tablet:w-full tablet:text-[16px] laptop:w-full laptop:text-lg phone:w-full phone:text-lg inline ">
+            maximum your life's potential with artificial intelligence
           </p>
         </div>
-        <button className="text-4xl max-lg:text-xl max-xl:text-2xl max-2xl:text-3xl font-bold bg-gradient-to-r from-blueAi to-purpleAi p-5 rounded-3xl">
-          LEARN MORE
-        </button>
+        <div className='w-full justify-center pt-5 flex items-center h-fit'>
+          <button className="desktop:text-xl phone:w-48 laptop:text-xl desktop:w-52 tablet:w-48 tablet:p-4 desktop:p-4 phone:p-5 phone:text-xl laptop:w-40 laptop:p-3 rounded-3xl tablet:text-xl  text-white bg-blueAi/50 hover:opacity-80 ">
+            White Paper
+          </button>
+        </div>
       </div>
-      <div className="w-1/2  h-full flex justify-center pr-4 items-center">
+      <div className="desktop:w-1/2 phone:p-5 laptop:p-5 desktop:p-5 phone:w-full phone:h-full laptop:w-4/6 tablet:w-full h-full flex justify-center tablet:p-5  items-center">
         <video src={require("./8.mp4")} controls={false} autoPlay={true} loop={true}></video>
 
       </div>
