@@ -4,8 +4,8 @@ import ParticlesBackground from './particle/particleBackground';
 export default function Main() {
 
   return (
-    <div className="flex flex-row grow justify-around items-center bg-black">
-      <ParticlesBackground />
+    <div className="flex flex-row grow justify-around items-center  bg-black">
+      {/* <ParticlesBackground /> */}
       <div className="w-1/2 h-full flex flex-col justify-center  space-y-12 items-center">
         <div className="flex w-full flex-col justify-center items-center space-y-4">
           <div className="flex flex-row space-x-1">
@@ -20,7 +20,7 @@ export default function Main() {
           </p>
         </div>
         <button className="text-4xl max-lg:text-xl max-xl:text-2xl max-2xl:text-3xl font-bold bg-gradient-to-r from-blueAi to-purpleAi p-5 rounded-3xl">
-          LEARN MOREe
+          LEARN MORE
         </button>
       </div>
       <div className="w-1/2  h-full flex justify-center pr-4 items-center">
