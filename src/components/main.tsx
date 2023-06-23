@@ -8,10 +8,10 @@ export default function Main() {
       {/* <ParticlesBackground /> */}
       <div className=" desktop:h-96 phone:w-full laptop:h-96 tablet:h-72 phone:h-72 desktop:p-5 laptop:p-5 phone:p-5 tablet:p-5 items-center desktop:w-1/2 laptop:w-1/2 tablet:w-full   justify-center flex flex-col ">
         <div className="flex items-center w-full tablet:w-80 phone:w-full  flex-col space-y-2 ">
-          <p className="desktop:text-5xl phone:w-full laptop:text-3xl tablet:text-4xl phone:text-3xl font-bold w-full  text-white inline">
+          <p className="desktop:text-5xl text-center phone:w-full laptop:text-3xl tablet:text-4xl phone:text-3xl font-bold w-full  text-white inline">
             Have You Seen The True Power Of <p className="text-blueAi desktop:w-96 laptop:w-96 tablet:w-96 phone:w-96 inline">AI</p> ?
           </p>
-          <p className="text-blueAi desktop:w-full desktop:text-xl tablet:w-full tablet:text-[16px] laptop:w-full laptop:text-lg phone:w-full phone:text-lg inline ">
+          <p className="text-blueAi text-center desktop:w-full desktop:text-xl tablet:w-full tablet:text-[16px] laptop:w-full laptop:text-lg phone:w-full phone:text-lg inline ">
             maximum your life's potential with artificial intelligence
           </p>
         </div>

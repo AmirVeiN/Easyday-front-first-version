@@ -1,15 +1,15 @@
 export default function Coin() {
   return (
-    <div className="w-full h-full pt-10 flex flex-col -space-y-1 bg-black">
-      <div className="z-20 w-full">
-        <img src={"/curve.png"} alt="loading" width={2000} height={100} />
-      </div>
-      <div className="w-full h-full flex flex-col  bg-gradient-to-r z-20  from-left to-right">
+    <div className="w-full h-full  flex flex-col -space-y-1 bg-black">
+
+      <img src={"/curve.png"} alt="loading" width={2000} height={100} />
+
+      <div className="w-full h-full flex flex-col  bg-gradient-to-r  from-left to-right">
         <div className="w-full flex justify-end">
-          <div className="w-1/2 flex justify-center relative">
+          <div className="desktop:w-1/2 laptop:w-1/2 tablet:w-1/2 phone:w-2/3 flex  justify-center relative">
             <div className="w-1/3 relative">
               <img
-                className="absolute -top-24"
+                className="absolute desktop:-top-24 laptop:-top-24 tablet:-top-20 phone:-top-10"
                 src={"/bomb.png"}
                 alt="Loading"
               />
@@ -17,10 +17,10 @@ export default function Coin() {
           </div>
         </div>
         <div className="w-full h-full flex flex-row">
-          <div className="w-1/2 flex flex-col justify-center items-center">
-            <div className="w-1/3 relative">
+          <div className="w-full flex flex-col items-center">
+            <div className="desktop:w-1/3 laptop:w-1/3 tablet:w-1/2 phone:w-1/2 relative">
               <img
-                className="absolute -left-8 top-10"
+                className="absolute desktop:-left-8 desktop:top-10 laptop:-left-8 laptop:top-10 tablet:-left-6 tablet:-top-7 phone:-left-6 phone:-top-5"
                 src={"/coin.png"}
                 alt="Loading"
               />
@@ -34,51 +34,16 @@ export default function Coin() {
               />
             </div>
           </div>
-          <div className="w-1/2 flex flex-col justify-center space-y-12 items-center">
-            <div className="flex flex-col justify-center text-center items-center space-y-4">
-
+          <div className="desktop:w-1/3 laptop:w-1/2 tablet:w-1/2 phone:w-1/3 flex desktop:flex-row laptop:flex-row tablet:flex-row justify-center pr-5 items-center">
+            <div className="flex justify-center w-full text-center items-center ">
+              <p className="desktop:text-5xl laptop:text-4xl tablet:text-2xl phone:text-xl text-white font-bold ">Combination of <p className="text-blueAi w-96 inline">AI</p> and <p className="text-blueAi w-96 inline">BlockChain</p> technology will change your life</p>
             </div>
           </div>
 
         </div>
       </div>
 
-      <div className="w-full h-full flex flex-row justify-between items-center ">
-        <div className="flex flex-col justify-center pl-12 items-start space-y-8">
-          <div className="flex flex-col space-y-6">
-            <h1 className="font-extrabold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-blueAi to-purpleAi">
-              RELATIONSHIP
-            </h1>
-            <div>
-              <p className="text-5xl font-bold">
-                Want to attract your dream girl ?
-              </p>
-              <p className="text-5xl font-bold">
-                Tired of techniques and fake advices ?
-              </p>
-            </div>
-          </div>
-          <button className="text-4xl font-bold bg-gradient-to-r flex from-blueAi to-purpleAi p-5 px-20 rounded-3xl">
-            LEARN MORE
-          </button>
-        </div>
-        <div className="relative">
-          <img
-            className=""
-            src={"/phone2.png"}
-            alt="Loading"
-            width={950}
-            height={850}
-          />
-          <img
-            className="absolute top-1 right-32"
-            src={"/love.png"}
-            alt="Loading"
-            width={550}
-            height={550}
-          />
-        </div>
-      </div>
+
     </div>
   );
 }
