@@ -13,13 +13,13 @@ export default function Header() {
         <p className="desktop:text-2xl laptop:text-xl phone:text-lg tablet:text-lg text-white font-bold">EasyDay</p>
       </a>
       <div className="justify-between desktop:mr-5 laptop:mr-3 phone:w-5/12 tablet:w-3/12 laptop:w-9/12 items-center flex flex-row desktop:w-8/12 h-full">
-        <button className="hover:border-b-2 tablet:hidden phone:hidden  text-white">Who We Are</button>
-        <button className="hover:border-b-2 tablet:hidden phone:hidden  text-white">Commuity</button>
-        <button className="hover:border-b-2 tablet:hidden phone:hidden  text-white">Roadmap</button>
-        <button className="hover:border-b-2 tablet:hidden phone:hidden  text-white">Tokenomics</button>
+        <button className="hover:text-cyan-300 tablet:hidden phone:hidden  text-white">Who We Are</button>
+        <button className="hover:text-cyan-300 tablet:hidden phone:hidden  text-white">Commuity</button>
+        <button className="hover:text-cyan-300 tablet:hidden phone:hidden  text-white">Roadmap</button>
+        <button className="hover:text-cyan-300 tablet:hidden phone:hidden  text-white">Tokenomics</button>
         <a className='desktop:text-2xl laptop:text-xl tablet:text-xl phone:text-xl text-white hover:text-twitter' href='www.aparat.com' target="_blank" ><FaTwitter /></a>
         <a className='desktop:text-2xl laptop:text-xl tablet:text-xl phone:text-xl text-white hover:text-twitter' href='www.aparat.com' target="_blank"><FaTelegramPlane /></a>
-        <button className="desktop:text-xl desktop:p-3 tablet:hidden phone:hidden tablet:rounded-lg desktop:rounded-xl font-bold laptop:text-lg laptop:rounded-xl laptop:p-2 text-white  bg-gradient-to-r from-purpleAi
+        <button className="desktop:text-lg desktop:p-2 tablet:hidden phone:hidden tablet:rounded-lg desktop:rounded-xl font-medium laptop:text-lg laptop:rounded-xl laptop:p-2 text-white  bg-gradient-to-r from-purpleAi
          to-blueAi hover:from-blueAi hover:to-purpleAi ">
           Buy Now
         </button>

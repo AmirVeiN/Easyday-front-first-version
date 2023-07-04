@@ -4,8 +4,10 @@ import ParticlesBackground from './particle/particleBackground';
 export default function Main() {
 
   return (
-    <div className="flex desktop:flex-row laptop:flex-row tablet:flex-col phone:flex-col p-2 justify-between bg-black">
-      {/* <ParticlesBackground /> */}
+    <div className="flex desktop:flex-row laptop:flex-row tablet:flex-col phone:flex-col p-2 justify-between bg-black ">
+      {/* <div className=''>
+        <ParticlesBackground />
+      </div> */}
       <div className=" desktop:h-96 phone:w-full laptop:h-96 tablet:h-72 phone:h-72 desktop:p-5 laptop:p-5 phone:p-5 tablet:p-5 items-center desktop:w-1/2 laptop:w-1/2 tablet:w-full   justify-center flex flex-col ">
         <div className="flex items-center w-full tablet:w-80 phone:w-full  flex-col space-y-2 ">
           <p className="desktop:text-5xl text-center phone:w-full laptop:text-3xl tablet:text-4xl phone:text-3xl font-bold w-full  text-white inline">
@@ -21,7 +23,7 @@ export default function Main() {
           </button>
         </div>
       </div>
-      <div className="desktop:w-1/2 phone:p-5 laptop:p-5 desktop:p-5 phone:w-full phone:h-full laptop:w-4/6 tablet:w-full h-full flex justify-center tablet:p-5  items-center">
+      <div className="desktop:w-1/2 phone:p-5 laptop:p-5 desktop:p-5 phone:w-full phone:h-full laptop:w-4/6 tablet:w-full h-full flex justify-center tablet:p-5  items-center ">
         <video src={require("./8.mp4")} controls={false} autoPlay={true} loop={true}></video>
 
       </div>
